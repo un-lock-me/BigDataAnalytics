@@ -1,0 +1,23 @@
+for(int i=0 ; i<CollectionOfItems.count(); i++)
+{
+
+nume= CollectionOfItems.Rows[i].name;
+	for(int j=0 ; j<CollectionOfItems.count(); j++)
+	
+	{
+		if(i<>j)
+	
+		{
+			if(nume == CollectionOfItems.Rows[j].name)
+	
+			{
+				return;
+			}
+			else if (name != ColectionOfItems.Rows[j].name && j== CollectionOfItems.count())
+	
+			{
+			return CollectionOfItems.Rows[j].name;			
+			}
+		}
+	}
+}

@@ -1,0 +1,3 @@
+select count(number) from tblNumbers
+Group by name
+having(count(number)=1)
