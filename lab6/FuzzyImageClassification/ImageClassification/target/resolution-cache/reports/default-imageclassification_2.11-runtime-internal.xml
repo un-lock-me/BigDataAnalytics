@@ -7,7 +7,7 @@
 		revision="1.0"
 		conf="runtime-internal"
 		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool"
-		date="20170305203203"/>
+		date="20170306154430"/>
 	<dependencies>
 		<module organisation="org.apache.spark" name="spark-mllib_2.11">
 			<revision name="2.0.0" status="release" pubdate="20160719181641" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://spark.apache.org/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="118">
@@ -1456,7 +1456,7 @@
 		</module>
 		<module organisation="org.apache.hadoop" name="hadoop-mapreduce-client-jobclient">
 			<revision name="2.2.0" status="release" pubdate="20131007013723" resolver="public" artresolver="public" homepage="" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="49">
-				<metadata-artifact status="successful" details="" size="5474" time="273" location="/home/machine1/.ivy2/cache/org.apache.hadoop/hadoop-mapreduce-client-jobclient/ivy-2.2.0.xml" searched="true" original-local-location="/home/machine1/.ivy2/cache/org.apache.hadoop/hadoop-mapreduce-client-jobclient/ivy-2.2.0.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/hadoop/hadoop-mapreduce-client-jobclient/2.2.0/hadoop-mapreduce-client-jobclient-2.2.0.pom"/>
+				<metadata-artifact status="successful" details="" size="5474" time="280" location="/home/machine1/.ivy2/cache/org.apache.hadoop/hadoop-mapreduce-client-jobclient/ivy-2.2.0.xml" searched="true" original-local-location="/home/machine1/.ivy2/cache/org.apache.hadoop/hadoop-mapreduce-client-jobclient/ivy-2.2.0.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/hadoop/hadoop-mapreduce-client-jobclient/2.2.0/hadoop-mapreduce-client-jobclient-2.2.0.pom"/>
 				<caller organisation="org.apache.hadoop" name="hadoop-client" conf="compile, runtime" rev="2.2.0" rev-constraint-default="2.2.0" rev-constraint-dynamic="2.2.0" callerrev="2.2.0"/>
 				<artifacts>
 					<artifact name="hadoop-mapreduce-client-jobclient" type="jar" ext="jar" status="no" details="" size="35216" time="0" location="/home/machine1/.ivy2/cache/org.apache.hadoop/hadoop-mapreduce-client-jobclient/jars/hadoop-mapreduce-client-jobclient-2.2.0.jar">
@@ -1467,7 +1467,7 @@
 		</module>
 		<module organisation="org.apache.hadoop" name="hadoop-mapreduce-client-app">
 			<revision name="2.2.0" status="release" pubdate="20131007013711" resolver="public" artresolver="public" homepage="" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="37">
-				<metadata-artifact status="successful" details="" size="4335" time="280" location="/home/machine1/.ivy2/cache/org.apache.hadoop/hadoop-mapreduce-client-app/ivy-2.2.0.xml" searched="true" original-local-location="/home/machine1/.ivy2/cache/org.apache.hadoop/hadoop-mapreduce-client-app/ivy-2.2.0.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/hadoop/hadoop-mapreduce-client-app/2.2.0/hadoop-mapreduce-client-app-2.2.0.pom"/>
+				<metadata-artifact status="successful" details="" size="4335" time="296" location="/home/machine1/.ivy2/cache/org.apache.hadoop/hadoop-mapreduce-client-app/ivy-2.2.0.xml" searched="true" original-local-location="/home/machine1/.ivy2/cache/org.apache.hadoop/hadoop-mapreduce-client-app/ivy-2.2.0.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/hadoop/hadoop-mapreduce-client-app/2.2.0/hadoop-mapreduce-client-app-2.2.0.pom"/>
 				<caller organisation="org.apache.hadoop" name="hadoop-client" conf="compile, runtime" rev="2.2.0" rev-constraint-default="2.2.0" rev-constraint-dynamic="2.2.0" callerrev="2.2.0"/>
 				<artifacts>
 					<artifact name="hadoop-mapreduce-client-app" type="jar" ext="jar" status="no" details="" size="482042" time="0" location="/home/machine1/.ivy2/cache/org.apache.hadoop/hadoop-mapreduce-client-app/jars/hadoop-mapreduce-client-app-2.2.0.jar">
@@ -1478,7 +1478,7 @@
 		</module>
 		<module organisation="org.apache.hadoop" name="hadoop-mapreduce-client-shuffle">
 			<revision name="2.2.0" status="release" pubdate="20131007013703" resolver="public" artresolver="public" homepage="" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="48">
-				<metadata-artifact status="successful" details="" size="1675" time="267" location="/home/machine1/.ivy2/cache/org.apache.hadoop/hadoop-mapreduce-client-shuffle/ivy-2.2.0.xml" searched="true" original-local-location="/home/machine1/.ivy2/cache/org.apache.hadoop/hadoop-mapreduce-client-shuffle/ivy-2.2.0.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/hadoop/hadoop-mapreduce-client-shuffle/2.2.0/hadoop-mapreduce-client-shuffle-2.2.0.pom"/>
+				<metadata-artifact status="successful" details="" size="1675" time="271" location="/home/machine1/.ivy2/cache/org.apache.hadoop/hadoop-mapreduce-client-shuffle/ivy-2.2.0.xml" searched="true" original-local-location="/home/machine1/.ivy2/cache/org.apache.hadoop/hadoop-mapreduce-client-shuffle/ivy-2.2.0.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/hadoop/hadoop-mapreduce-client-shuffle/2.2.0/hadoop-mapreduce-client-shuffle-2.2.0.pom"/>
 				<caller organisation="org.apache.hadoop" name="hadoop-mapreduce-client-jobclient" conf="compile, runtime" rev="2.2.0" rev-constraint-default="2.2.0" rev-constraint-dynamic="2.2.0" callerrev="2.2.0"/>
 				<caller organisation="org.apache.hadoop" name="hadoop-mapreduce-client-app" conf="compile, runtime" rev="2.2.0" rev-constraint-default="2.2.0" rev-constraint-dynamic="2.2.0" callerrev="2.2.0"/>
 				<artifacts>
@@ -1490,7 +1490,7 @@
 		</module>
 		<module organisation="org.apache.hadoop" name="hadoop-yarn-server-nodemanager">
 			<revision name="2.2.0" status="release" pubdate="20131007013538" resolver="public" artresolver="public" homepage="" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*)" position="117">
-				<metadata-artifact status="successful" details="" size="7324" time="279" location="/home/machine1/.ivy2/cache/org.apache.hadoop/hadoop-yarn-server-nodemanager/ivy-2.2.0.xml" searched="true" original-local-location="/home/machine1/.ivy2/cache/org.apache.hadoop/hadoop-yarn-server-nodemanager/ivy-2.2.0.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/hadoop/hadoop-yarn-server-nodemanager/2.2.0/hadoop-yarn-server-nodemanager-2.2.0.pom"/>
+				<metadata-artifact status="successful" details="" size="7324" time="281" location="/home/machine1/.ivy2/cache/org.apache.hadoop/hadoop-yarn-server-nodemanager/ivy-2.2.0.xml" searched="true" original-local-location="/home/machine1/.ivy2/cache/org.apache.hadoop/hadoop-yarn-server-nodemanager/ivy-2.2.0.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/hadoop/hadoop-yarn-server-nodemanager/2.2.0/hadoop-yarn-server-nodemanager-2.2.0.pom"/>
 				<caller organisation="org.apache.hadoop" name="hadoop-mapreduce-client-shuffle" conf="compile, runtime" rev="2.2.0" rev-constraint-default="2.2.0" rev-constraint-dynamic="2.2.0" callerrev="2.2.0"/>
 				<artifacts>
 				</artifacts>
@@ -1498,7 +1498,7 @@
 		</module>
 		<module organisation="org.apache.hadoop" name="hadoop-mapreduce-client-common">
 			<revision name="2.2.0" status="release" pubdate="20131007013659" resolver="public" artresolver="public" homepage="" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="38">
-				<metadata-artifact status="successful" details="" size="3273" time="274" location="/home/machine1/.ivy2/cache/org.apache.hadoop/hadoop-mapreduce-client-common/ivy-2.2.0.xml" searched="true" original-local-location="/home/machine1/.ivy2/cache/org.apache.hadoop/hadoop-mapreduce-client-common/ivy-2.2.0.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/hadoop/hadoop-mapreduce-client-common/2.2.0/hadoop-mapreduce-client-common-2.2.0.pom"/>
+				<metadata-artifact status="successful" details="" size="3273" time="284" location="/home/machine1/.ivy2/cache/org.apache.hadoop/hadoop-mapreduce-client-common/ivy-2.2.0.xml" searched="true" original-local-location="/home/machine1/.ivy2/cache/org.apache.hadoop/hadoop-mapreduce-client-common/ivy-2.2.0.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/hadoop/hadoop-mapreduce-client-common/2.2.0/hadoop-mapreduce-client-common-2.2.0.pom"/>
 				<caller organisation="org.apache.hadoop" name="hadoop-mapreduce-client-jobclient" conf="compile, runtime" rev="2.2.0" rev-constraint-default="2.2.0" rev-constraint-dynamic="2.2.0" callerrev="2.2.0"/>
 				<caller organisation="org.apache.hadoop" name="hadoop-mapreduce-client-app" conf="compile, runtime" rev="2.2.0" rev-constraint-default="2.2.0" rev-constraint-dynamic="2.2.0" callerrev="2.2.0"/>
 				<artifacts>
@@ -1510,7 +1510,7 @@
 		</module>
 		<module organisation="org.apache.hadoop" name="hadoop-yarn-server-common">
 			<revision name="2.2.0" status="release" pubdate="20131007013526" resolver="public" artresolver="public" homepage="" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="47">
-				<metadata-artifact status="successful" details="" size="3534" time="277" location="/home/machine1/.ivy2/cache/org.apache.hadoop/hadoop-yarn-server-common/ivy-2.2.0.xml" searched="true" original-local-location="/home/machine1/.ivy2/cache/org.apache.hadoop/hadoop-yarn-server-common/ivy-2.2.0.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/hadoop/hadoop-yarn-server-common/2.2.0/hadoop-yarn-server-common-2.2.0.pom"/>
+				<metadata-artifact status="successful" details="" size="3534" time="276" location="/home/machine1/.ivy2/cache/org.apache.hadoop/hadoop-yarn-server-common/ivy-2.2.0.xml" searched="true" original-local-location="/home/machine1/.ivy2/cache/org.apache.hadoop/hadoop-yarn-server-common/ivy-2.2.0.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/hadoop/hadoop-yarn-server-common/2.2.0/hadoop-yarn-server-common-2.2.0.pom"/>
 				<caller organisation="org.apache.hadoop" name="hadoop-mapreduce-client-common" conf="compile, runtime" rev="2.2.0" rev-constraint-default="2.2.0" rev-constraint-dynamic="2.2.0" callerrev="2.2.0"/>
 				<caller organisation="org.apache.hadoop" name="hadoop-yarn-server-nodemanager" conf="compile, runtime" rev="2.2.0" rev-constraint-default="2.2.0" rev-constraint-dynamic="2.2.0" callerrev="2.2.0"/>
 				<artifacts>
@@ -1522,7 +1522,7 @@
 		</module>
 		<module organisation="org.apache.hadoop" name="hadoop-mapreduce-client-core">
 			<revision name="2.2.0" status="release" pubdate="20131007013626" resolver="public" artresolver="public" homepage="" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="46">
-				<metadata-artifact status="successful" details="" size="3085" time="277" location="/home/machine1/.ivy2/cache/org.apache.hadoop/hadoop-mapreduce-client-core/ivy-2.2.0.xml" searched="true" original-local-location="/home/machine1/.ivy2/cache/org.apache.hadoop/hadoop-mapreduce-client-core/ivy-2.2.0.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/hadoop/hadoop-mapreduce-client-core/2.2.0/hadoop-mapreduce-client-core-2.2.0.pom"/>
+				<metadata-artifact status="successful" details="" size="3085" time="285" location="/home/machine1/.ivy2/cache/org.apache.hadoop/hadoop-mapreduce-client-core/ivy-2.2.0.xml" searched="true" original-local-location="/home/machine1/.ivy2/cache/org.apache.hadoop/hadoop-mapreduce-client-core/ivy-2.2.0.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/hadoop/hadoop-mapreduce-client-core/2.2.0/hadoop-mapreduce-client-core-2.2.0.pom"/>
 				<caller organisation="org.apache.hadoop" name="hadoop-mapreduce-client-shuffle" conf="compile, runtime" rev="2.2.0" rev-constraint-default="2.2.0" rev-constraint-dynamic="2.2.0" callerrev="2.2.0"/>
 				<caller organisation="org.apache.hadoop" name="hadoop-client" conf="compile, runtime" rev="2.2.0" rev-constraint-default="2.2.0" rev-constraint-dynamic="2.2.0" callerrev="2.2.0"/>
 				<caller organisation="org.apache.hadoop" name="hadoop-mapreduce-client-common" conf="compile, runtime" rev="2.2.0" rev-constraint-default="2.2.0" rev-constraint-dynamic="2.2.0" callerrev="2.2.0"/>
@@ -1546,7 +1546,7 @@
 		</module>
 		<module organisation="org.apache.hadoop" name="hadoop-yarn-common">
 			<revision name="2.2.0" status="release" pubdate="20131007013515" resolver="public" artresolver="public" homepage="" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="39">
-				<metadata-artifact status="successful" details="" size="5032" time="273" location="/home/machine1/.ivy2/cache/org.apache.hadoop/hadoop-yarn-common/ivy-2.2.0.xml" searched="true" original-local-location="/home/machine1/.ivy2/cache/org.apache.hadoop/hadoop-yarn-common/ivy-2.2.0.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/hadoop/hadoop-yarn-common/2.2.0/hadoop-yarn-common-2.2.0.pom"/>
+				<metadata-artifact status="successful" details="" size="5032" time="280" location="/home/machine1/.ivy2/cache/org.apache.hadoop/hadoop-yarn-common/ivy-2.2.0.xml" searched="true" original-local-location="/home/machine1/.ivy2/cache/org.apache.hadoop/hadoop-yarn-common/ivy-2.2.0.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/hadoop/hadoop-yarn-common/2.2.0/hadoop-yarn-common-2.2.0.pom"/>
 				<caller organisation="org.apache.hadoop" name="hadoop-yarn-client" conf="compile, runtime" rev="2.2.0" rev-constraint-default="2.2.0" rev-constraint-dynamic="2.2.0" callerrev="2.2.0"/>
 				<caller organisation="org.apache.hadoop" name="hadoop-mapreduce-client-core" conf="compile, runtime" rev="2.2.0" rev-constraint-default="2.2.0" rev-constraint-dynamic="2.2.0" callerrev="2.2.0"/>
 				<caller organisation="org.apache.hadoop" name="hadoop-yarn-server-common" conf="compile, runtime" rev="2.2.0" rev-constraint-default="2.2.0" rev-constraint-dynamic="2.2.0" callerrev="2.2.0"/>
@@ -1560,7 +1560,7 @@
 		</module>
 		<module organisation="org.apache.hadoop" name="hadoop-yarn-api">
 			<revision name="2.2.0" status="release" pubdate="20131007013452" resolver="public" artresolver="public" homepage="" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="40">
-				<metadata-artifact status="successful" details="" size="2956" time="271" location="/home/machine1/.ivy2/cache/org.apache.hadoop/hadoop-yarn-api/ivy-2.2.0.xml" searched="true" original-local-location="/home/machine1/.ivy2/cache/org.apache.hadoop/hadoop-yarn-api/ivy-2.2.0.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/hadoop/hadoop-yarn-api/2.2.0/hadoop-yarn-api-2.2.0.pom"/>
+				<metadata-artifact status="successful" details="" size="2956" time="275" location="/home/machine1/.ivy2/cache/org.apache.hadoop/hadoop-yarn-api/ivy-2.2.0.xml" searched="true" original-local-location="/home/machine1/.ivy2/cache/org.apache.hadoop/hadoop-yarn-api/ivy-2.2.0.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/hadoop/hadoop-yarn-api/2.2.0/hadoop-yarn-api-2.2.0.pom"/>
 				<caller organisation="org.apache.hadoop" name="hadoop-yarn-client" conf="compile, runtime" rev="2.2.0" rev-constraint-default="2.2.0" rev-constraint-dynamic="2.2.0" callerrev="2.2.0"/>
 				<caller organisation="org.apache.hadoop" name="hadoop-yarn-common" conf="compile, runtime" rev="2.2.0" rev-constraint-default="2.2.0" rev-constraint-dynamic="2.2.0" callerrev="2.2.0"/>
 				<caller organisation="org.apache.hadoop" name="hadoop-client" conf="compile, runtime" rev="2.2.0" rev-constraint-default="2.2.0" rev-constraint-dynamic="2.2.0" callerrev="2.2.0"/>

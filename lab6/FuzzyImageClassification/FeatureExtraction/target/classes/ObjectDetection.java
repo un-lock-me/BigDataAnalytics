@@ -43,13 +43,9 @@ class ObjectMainDetection {
     private ConsistentLocalFeatureMatcher2d<Keypoint> matcher1;
     private ConsistentLocalFeatureMatcher2d<Keypoint> matcher2;
     private ConsistentLocalFeatureMatcher2d<Keypoint> matcher3;
-    /*private ConsistentLocalFeatureMatcher2d<Keypoint> matcher4;
-    private ConsistentLocalFeatureMatcher2d<Keypoint> matcher5;*/
     final DoGSIFTEngine engine;
-//    private RenderMode renderMode = RenderMode.SQUARE;
 
     private MBFImage modelImage1, modelImage2, modelImage3;
-    //private MBFImage modelImage1, modelImage2, modelImage3, modelImage4, modelImage5;
 
 
     public ObjectMainDetection() throws IOException {
@@ -61,18 +57,12 @@ class ObjectMainDetection {
                 new FastBasicKeypointMatcher<Keypoint>(8));
         this.matcher3 = new ConsistentLocalFeatureMatcher2d<Keypoint>(
                 new FastBasicKeypointMatcher<Keypoint>(8));
-        /*this.matcher4 = new ConsistentLocalFeatureMatcher2d<Keypoint>(
-                new FastBasicKeypointMatcher<Keypoint>(8));
-        this.matcher5 = new ConsistentLocalFeatureMatcher2d<Keypoint>(
-                new FastBasicKeypointMatcher<Keypoint>(8));*/
         final RobustHomographyEstimator ransac = new RobustHomographyEstimator(0.5, 1500,
                 new RANSAC.PercentageInliersStoppingCondition(0.6), HomographyRefinement.NONE,
                 new TransformMatrixConditionCheck<HomographyModel>(10000));
         this.matcher1.setFittingModel(ransac);
         this.matcher2.setFittingModel(ransac);
         this.matcher3.setFittingModel(ransac);
-        /*this.matcher4.setFittingModel(ransac);
-        this.matcher5.setFittingModel(ransac);*/
         LoadReferenceObject();
         StartVideo();
     }
@@ -80,7 +70,6 @@ class ObjectMainDetection {
     public void StartVideo() throws IOException {
         Video<MBFImage> video = new XuggleVideo(new File("data/sample.mkv"));
         int count1 = 0, count2 = 0, count3 = 0;
-        //int count1 = 0, count2 = 0, count3 = 0, count4 = 0, count5 = 0;
         String o1 = "output/features.txt";
         FileWriter fw = new FileWriter(o1);
         BufferedWriter bw = new BufferedWriter(fw);
@@ -201,82 +190,6 @@ class ObjectMainDetection {
                 }
 
             }
-            /*if (this.matcher4.findMatches(kpl)
-                    && ((MatrixTransformProvider) this.matcher4.getModel()).getTransform().cond() < 1e6) {
-                try {
-                    final Matrix boundsToPoly = ((MatrixTransformProvider) this.matcher4.getModel()).getTransform()
-                            .inverse();
-
-                    if (modelImage4.getBounds().transform(boundsToPoly).isConvex()) {
-
-                        renderer.drawShape(this.modelImage4.getBounds().transform(boundsToPoly), 3, RGBColour.RED);
-
-                        if (count4 <= 10) {
-                            List<Point2d> vertices = this.modelImage4.getBounds().transform(boundsToPoly).asPolygon().getVertices();
-                            int x[] = new int[4], y[] = new int[4];
-                            for (int i = 0; i < vertices.size(); i++) {
-                                x[i] = (int) vertices.get(i).getX();
-                                y[i] = (int) vertices.get(i).getY();
-                            }
-                            Polygon polygon = new Polygon(x, y, 4);
-                            for (int i = 0; i < kpl.size(); i++) {
-                                if (polygon.contains(kpl.get(i).getX(), kpl.get(i).getY())) {
-                                    double c[] = kpl.get(i).getFeatureVector().asDoubleVector();
-                                    bw.write("3,");
-                                    for (int j = 0; j < c.length; j++) {
-                                        bw.write(c[j] + " ");
-                                    }
-                                    bw.newLine();
-                                }
-                            }
-
-                            count4++;
-                        }
-
-                    }
-                } catch (Exception e) {
-                    System.out.println(e.getMessage());
-                }
-
-            }
-            if (this.matcher5.findMatches(kpl)
-                    && ((MatrixTransformProvider) this.matcher5.getModel()).getTransform().cond() < 1e6) {
-                try {
-                    final Matrix boundsToPoly = ((MatrixTransformProvider) this.matcher5.getModel()).getTransform()
-                            .inverse();
-
-                    if (modelImage5.getBounds().transform(boundsToPoly).isConvex()) {
-
-                        renderer.drawShape(this.modelImage5.getBounds().transform(boundsToPoly), 3, RGBColour.RED);
-
-                        if (count5 <= 10) {
-                            List<Point2d> vertices = this.modelImage1.getBounds().transform(boundsToPoly).asPolygon().getVertices();
-                            int x[] = new int[4], y[] = new int[4];
-                            for (int i = 0; i < vertices.size(); i++) {
-                                x[i] = (int) vertices.get(i).getX();
-                                y[i] = (int) vertices.get(i).getY();
-                            }
-                            Polygon polygon = new Polygon(x, y, 4);
-                            for (int i = 0; i < kpl.size(); i++) {
-                                if (polygon.contains(kpl.get(i).getX(), kpl.get(i).getY())) {
-                                    double c[] = kpl.get(i).getFeatureVector().asDoubleVector();
-                                    bw.write("4,");
-                                    for (int j = 0; j < c.length; j++) {
-                                        bw.write(c[j] + " ");
-                                    }
-                                    bw.newLine();
-                                }
-                            }
-
-                            count5++;
-                        }
-
-                    }
-                } catch (Exception e) {
-                    System.out.println(e.getMessage());
-                }
-
-            }*/
             DisplayUtilities.displayName(mbfImage, "Image");
         }
         bw.close();
@@ -291,8 +204,6 @@ class ObjectMainDetection {
             modelImage1 = ImageUtilities.readMBF(new File("data/1.jpg"));
             modelImage2 = ImageUtilities.readMBF(new File("data/2.jpg"));
             modelImage3 = ImageUtilities.readMBF(new File("data/3.jpg"));
-            //modelImage4 = ImageUtilities.readMBF(new File("data/4.jpg"));
-            //modelImage5 = ImageUtilities.readMBF(new File("data/5.jpg"));
         } catch (IOException e) {
             e.printStackTrace();
         }
@@ -305,12 +216,6 @@ class ObjectMainDetection {
 
         FImage modelF3 = Transforms.calculateIntensityNTSC(modelImage3);
         this.matcher3.setModelFeatures(engine.findFeatures(modelF3));
-
-        /*FImage modelF4 = Transforms.calculateIntensityNTSC(modelImage4);
-        this.matcher4.setModelFeatures(engine.findFeatures(modelF4));
-
-        FImage modelF5 = Transforms.calculateIntensityNTSC(modelImage5);
-        this.matcher5.setModelFeatures(engine.findFeatures(modelF5));*/
 
     }
 }
