@@ -1,0 +1,50 @@
+{
+  "userSays": [
+    {
+      "id": "a07a963b-d9a9-4811-840e-daf6eee7a0ea",
+      "data": [
+        {
+          "text": "get me information about image "
+        },
+        {
+          "text": "one",
+          "alias": "image",
+          "meta": "@image",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "b0f39810-5436-4c70-a7ed-81aaeb23afe2",
+  "name": "image-details",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "required": true,
+          "dataType": "@image",
+          "name": "image",
+          "value": "$image",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "oops...try again"
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

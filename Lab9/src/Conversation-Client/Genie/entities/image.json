@@ -1,0 +1,36 @@
+{
+  "id": "ed756526-9369-480e-a26f-00e761be23a3",
+  "name": "image",
+  "isOverridable": true,
+  "entries": [
+    {
+      "value": "one",
+      "synonyms": [
+        "one",
+        "1st",
+        "first",
+        "1"
+      ]
+    },
+    {
+      "value": "two",
+      "synonyms": [
+        "two",
+        "2nd",
+        "second",
+        "2"
+      ]
+    },
+    {
+      "value": "three",
+      "synonyms": [
+        "three",
+        "3rd",
+        "third",
+        "3"
+      ]
+    }
+  ],
+  "isEnum": false,
+  "automatedExpansion": false
+}

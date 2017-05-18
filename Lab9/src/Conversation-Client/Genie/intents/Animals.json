@@ -1,0 +1,91 @@
+{
+  "userSays": [
+    {
+      "id": "89534833-d68e-4730-9226-6fc9c538e4af",
+      "data": [
+        {
+          "text": "clear",
+          "alias": "null",
+          "meta": "@screen",
+          "userDefined": false
+        },
+        {
+          "text": " the screen"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "19ca6c9d-2622-486d-81b9-0f14fb3ca65b",
+      "data": [
+        {
+          "text": "show me "
+        },
+        {
+          "text": "animals",
+          "alias": "animals",
+          "meta": "@animals",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "080c9f18-8f6e-4158-a014-1bf5d0c0020b",
+      "data": [
+        {
+          "text": "show me "
+        },
+        {
+          "text": "horse",
+          "alias": "animals",
+          "meta": "@animals",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "789e69a6-4582-4e3f-826c-950dd124c7e9",
+  "name": "Animals",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "required": false,
+          "dataType": "@animals",
+          "name": "animals",
+          "value": "$animals",
+          "prompts": [
+            "give animal name"
+          ],
+          "isList": false
+        },
+        {
+          "dataType": "@screen",
+          "name": "null",
+          "value": "$null",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "speech": []
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

@@ -1,0 +1,72 @@
+{
+  "userSays": [
+    {
+      "id": "98bc13d8-70b1-4287-8575-b9c20532d9fd",
+      "data": [
+        {
+          "text": "does image "
+        },
+        {
+          "text": "one",
+          "alias": "image",
+          "meta": "@image",
+          "userDefined": false
+        },
+        {
+          "text": " contains "
+        },
+        {
+          "text": "pigeon",
+          "alias": "contains",
+          "meta": "@sys.given-name",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "425e2cb4-b693-44bd-9aac-da0726a80b26",
+  "name": "Contains",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "required": true,
+          "dataType": "@image",
+          "name": "image",
+          "value": "$image",
+          "prompts": [
+            "for which image"
+          ],
+          "isList": false
+        },
+        {
+          "required": true,
+          "dataType": "@sys.given-name",
+          "name": "contains",
+          "value": "$contains",
+          "prompts": [
+            "what you want to check with image"
+          ],
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "oops..try again"
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

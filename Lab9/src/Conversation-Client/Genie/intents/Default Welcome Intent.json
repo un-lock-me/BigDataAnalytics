@@ -1,0 +1,41 @@
+{
+  "userSays": [
+    {
+      "id": "5d6b308e-81b2-4fdc-8224-881bb2e9a8bf",
+      "data": [
+        {
+          "text": "Hey Genie"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "fad234ae-11ad-4707-a656-61a9d527a439",
+  "name": "Default Welcome Intent",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "input.welcome",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "Hi, I am Genie! How can i help you"
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [
+    {
+      "name": "WELCOME"
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "id": "2667a348-816e-4356-ad6b-5531b55a9ec6",
+  "name": "animals",
+  "isOverridable": true,
+  "entries": [
+    {
+      "value": "horse",
+      "synonyms": [
+        "horse"
+      ]
+    },
+    {
+      "value": "cat",
+      "synonyms": [
+        "cat"
+      ]
+    },
+    {
+      "value": "dog",
+      "synonyms": [
+        "dog"
+      ]
+    },
+    {
+      "value": "animals",
+      "synonyms": [
+        "animals"
+      ]
+    }
+  ],
+  "isEnum": false,
+  "automatedExpansion": false
+}
