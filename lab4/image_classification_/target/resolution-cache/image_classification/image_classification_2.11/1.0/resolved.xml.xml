@@ -4,7 +4,7 @@
 		module="image_classification_2.11"
 		revision="1.0"
 		status="integration"
-		publication="20170216193445"
+		publication="20170518110201"
 	>
 		<description>
 		Image_Classification

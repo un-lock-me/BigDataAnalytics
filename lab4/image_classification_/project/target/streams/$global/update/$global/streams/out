@@ -1,29 +1,29 @@
-[info] Updating {file:/home/machine1/Downloads/saria/CS5542-Tutorial4-SourceCode/image_classification_Linux_MacOS/project/}image_classification_linux_macos-build...
-[debug] :: resolving dependencies :: default#image_classification_linux_macos-build;0.1-SNAPSHOT
+[info] Updating {file:/home/machine1/Downloads/SariaFolder/BigDataAnalytics/lab4/image_classification_/project/}image_classification_-build...
+[debug] :: resolving dependencies :: default#image_classification_-build;0.1-SNAPSHOT
 [debug] 	confs: [compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool]
 [debug] 	validate = true
 [debug] 	refresh = false
 [debug] resolving dependencies for configuration 'compile'
-[debug] == resolving dependencies for default#image_classification_linux_macos-build;0.1-SNAPSHOT [compile]
+[debug] == resolving dependencies for default#image_classification_-build;0.1-SNAPSHOT [compile]
 [debug] resolving dependencies for configuration 'runtime'
-[debug] == resolving dependencies for default#image_classification_linux_macos-build;0.1-SNAPSHOT [runtime]
-[debug] == resolving dependencies for default#image_classification_linux_macos-build;0.1-SNAPSHOT [compile]
+[debug] == resolving dependencies for default#image_classification_-build;0.1-SNAPSHOT [runtime]
+[debug] == resolving dependencies for default#image_classification_-build;0.1-SNAPSHOT [compile]
 [debug] resolving dependencies for configuration 'test'
-[debug] == resolving dependencies for default#image_classification_linux_macos-build;0.1-SNAPSHOT [test]
-[debug] == resolving dependencies for default#image_classification_linux_macos-build;0.1-SNAPSHOT [runtime]
-[debug] == resolving dependencies for default#image_classification_linux_macos-build;0.1-SNAPSHOT [compile]
+[debug] == resolving dependencies for default#image_classification_-build;0.1-SNAPSHOT [test]
+[debug] == resolving dependencies for default#image_classification_-build;0.1-SNAPSHOT [runtime]
+[debug] == resolving dependencies for default#image_classification_-build;0.1-SNAPSHOT [compile]
 [debug] resolving dependencies for configuration 'provided'
-[debug] == resolving dependencies for default#image_classification_linux_macos-build;0.1-SNAPSHOT [provided]
-[debug] == resolving dependencies default#image_classification_linux_macos-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [provided->default(compile)]
+[debug] == resolving dependencies for default#image_classification_-build;0.1-SNAPSHOT [provided]
+[debug] == resolving dependencies default#image_classification_-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [provided->default(compile)]
 [info] Resolving org.scala-lang#scala-library;2.10.4 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@6b91d758
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@6eaa133e
 [debug] sbt-chain: module revision found in cache: org.scala-lang#scala-library;2.10.4
 [debug] 	found org.scala-lang#scala-library;2.10.4 in sbt-chain
 [debug] 	[2.10.4] org.scala-lang#scala-library;2.10.4
-[debug] == resolving dependencies default#image_classification_linux_macos-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [provided->runtime]
-[debug] == resolving dependencies default#image_classification_linux_macos-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [provided->compile]
-[debug] == resolving dependencies default#image_classification_linux_macos-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [provided->master]
-[debug] == resolving dependencies default#image_classification_linux_macos-build;0.1-SNAPSHOT->org.scala-sbt#sbt;0.13.8 [provided->default(compile)]
+[debug] == resolving dependencies default#image_classification_-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [provided->runtime]
+[debug] == resolving dependencies default#image_classification_-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [provided->compile]
+[debug] == resolving dependencies default#image_classification_-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [provided->master]
+[debug] == resolving dependencies default#image_classification_-build;0.1-SNAPSHOT->org.scala-sbt#sbt;0.13.8 [provided->default(compile)]
 [info] Resolving org.scala-sbt#sbt;0.13.8 ...
 [debug] sbt-chain: Checking cache for: dependency: org.scala-sbt#sbt;0.13.8 {provided=[default(compile)]}
 [debug] sbt-chain: module revision found in cache: org.scala-sbt#sbt;0.13.8
@@ -709,17 +709,17 @@
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.9.3 {provided=[default(compile)]} => dependency: org.scala-lang#scala-compiler;2.10.4 {provided=[default(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.9.3 {compile=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.4 {compile=[default(compile)]}
 [debug] resolving dependencies for configuration 'optional'
-[debug] == resolving dependencies for default#image_classification_linux_macos-build;0.1-SNAPSHOT [optional]
+[debug] == resolving dependencies for default#image_classification_-build;0.1-SNAPSHOT [optional]
 [debug] resolving dependencies for configuration 'compile-internal'
-[debug] == resolving dependencies for default#image_classification_linux_macos-build;0.1-SNAPSHOT [compile-internal]
-[debug] == resolving dependencies for default#image_classification_linux_macos-build;0.1-SNAPSHOT [compile]
-[debug] == resolving dependencies for default#image_classification_linux_macos-build;0.1-SNAPSHOT [optional]
-[debug] == resolving dependencies for default#image_classification_linux_macos-build;0.1-SNAPSHOT [provided]
-[debug] == resolving dependencies default#image_classification_linux_macos-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [provided->default(compile)]
-[debug] == resolving dependencies default#image_classification_linux_macos-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [provided->runtime]
-[debug] == resolving dependencies default#image_classification_linux_macos-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [provided->compile]
-[debug] == resolving dependencies default#image_classification_linux_macos-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [provided->master]
-[debug] == resolving dependencies default#image_classification_linux_macos-build;0.1-SNAPSHOT->org.scala-sbt#sbt;0.13.8 [provided->default(compile)]
+[debug] == resolving dependencies for default#image_classification_-build;0.1-SNAPSHOT [compile-internal]
+[debug] == resolving dependencies for default#image_classification_-build;0.1-SNAPSHOT [compile]
+[debug] == resolving dependencies for default#image_classification_-build;0.1-SNAPSHOT [optional]
+[debug] == resolving dependencies for default#image_classification_-build;0.1-SNAPSHOT [provided]
+[debug] == resolving dependencies default#image_classification_-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [provided->default(compile)]
+[debug] == resolving dependencies default#image_classification_-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [provided->runtime]
+[debug] == resolving dependencies default#image_classification_-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [provided->compile]
+[debug] == resolving dependencies default#image_classification_-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [provided->master]
+[debug] == resolving dependencies default#image_classification_-build;0.1-SNAPSHOT->org.scala-sbt#sbt;0.13.8 [provided->default(compile)]
 [debug] == resolving dependencies org.scala-sbt#sbt;0.13.8->org.scala-lang#scala-library;2.10.4 [compile->default(compile)]
 [debug] == resolving dependencies org.scala-sbt#sbt;0.13.8->org.scala-lang#scala-library;2.10.4 [compile->runtime]
 [debug] == resolving dependencies org.scala-sbt#sbt;0.13.8->org.scala-lang#scala-library;2.10.4 [compile->compile]
@@ -1182,22 +1182,22 @@
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.9.3 {provided=[default(compile)]} => dependency: org.scala-lang#scala-compiler;2.10.4 {provided=[default(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.9.3 {compile=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.4 {compile=[default(compile)]}
 [debug] resolving dependencies for configuration 'runtime-internal'
-[debug] == resolving dependencies for default#image_classification_linux_macos-build;0.1-SNAPSHOT [runtime-internal]
-[debug] == resolving dependencies for default#image_classification_linux_macos-build;0.1-SNAPSHOT [runtime]
-[debug] == resolving dependencies for default#image_classification_linux_macos-build;0.1-SNAPSHOT [compile]
-[debug] == resolving dependencies for default#image_classification_linux_macos-build;0.1-SNAPSHOT [optional]
+[debug] == resolving dependencies for default#image_classification_-build;0.1-SNAPSHOT [runtime-internal]
+[debug] == resolving dependencies for default#image_classification_-build;0.1-SNAPSHOT [runtime]
+[debug] == resolving dependencies for default#image_classification_-build;0.1-SNAPSHOT [compile]
+[debug] == resolving dependencies for default#image_classification_-build;0.1-SNAPSHOT [optional]
 [debug] resolving dependencies for configuration 'test-internal'
-[debug] == resolving dependencies for default#image_classification_linux_macos-build;0.1-SNAPSHOT [test-internal]
-[debug] == resolving dependencies for default#image_classification_linux_macos-build;0.1-SNAPSHOT [test]
-[debug] == resolving dependencies for default#image_classification_linux_macos-build;0.1-SNAPSHOT [runtime]
-[debug] == resolving dependencies for default#image_classification_linux_macos-build;0.1-SNAPSHOT [compile]
-[debug] == resolving dependencies for default#image_classification_linux_macos-build;0.1-SNAPSHOT [optional]
-[debug] == resolving dependencies for default#image_classification_linux_macos-build;0.1-SNAPSHOT [provided]
-[debug] == resolving dependencies default#image_classification_linux_macos-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [provided->default(compile)]
-[debug] == resolving dependencies default#image_classification_linux_macos-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [provided->runtime]
-[debug] == resolving dependencies default#image_classification_linux_macos-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [provided->compile]
-[debug] == resolving dependencies default#image_classification_linux_macos-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [provided->master]
-[debug] == resolving dependencies default#image_classification_linux_macos-build;0.1-SNAPSHOT->org.scala-sbt#sbt;0.13.8 [provided->default(compile)]
+[debug] == resolving dependencies for default#image_classification_-build;0.1-SNAPSHOT [test-internal]
+[debug] == resolving dependencies for default#image_classification_-build;0.1-SNAPSHOT [test]
+[debug] == resolving dependencies for default#image_classification_-build;0.1-SNAPSHOT [runtime]
+[debug] == resolving dependencies for default#image_classification_-build;0.1-SNAPSHOT [compile]
+[debug] == resolving dependencies for default#image_classification_-build;0.1-SNAPSHOT [optional]
+[debug] == resolving dependencies for default#image_classification_-build;0.1-SNAPSHOT [provided]
+[debug] == resolving dependencies default#image_classification_-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [provided->default(compile)]
+[debug] == resolving dependencies default#image_classification_-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [provided->runtime]
+[debug] == resolving dependencies default#image_classification_-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [provided->compile]
+[debug] == resolving dependencies default#image_classification_-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [provided->master]
+[debug] == resolving dependencies default#image_classification_-build;0.1-SNAPSHOT->org.scala-sbt#sbt;0.13.8 [provided->default(compile)]
 [debug] == resolving dependencies org.scala-sbt#sbt;0.13.8->org.scala-lang#scala-library;2.10.4 [compile->default(compile)]
 [debug] == resolving dependencies org.scala-sbt#sbt;0.13.8->org.scala-lang#scala-library;2.10.4 [compile->runtime]
 [debug] == resolving dependencies org.scala-sbt#sbt;0.13.8->org.scala-lang#scala-library;2.10.4 [compile->compile]
@@ -1660,18 +1660,18 @@
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.9.3 {provided=[default(compile)]} => dependency: org.scala-lang#scala-compiler;2.10.4 {provided=[default(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.9.3 {compile=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.4 {compile=[default(compile)]}
 [debug] resolving dependencies for configuration 'plugin'
-[debug] == resolving dependencies for default#image_classification_linux_macos-build;0.1-SNAPSHOT [plugin]
+[debug] == resolving dependencies for default#image_classification_-build;0.1-SNAPSHOT [plugin]
 [debug] resolving dependencies for configuration 'sources'
-[debug] == resolving dependencies for default#image_classification_linux_macos-build;0.1-SNAPSHOT [sources]
+[debug] == resolving dependencies for default#image_classification_-build;0.1-SNAPSHOT [sources]
 [debug] resolving dependencies for configuration 'docs'
-[debug] == resolving dependencies for default#image_classification_linux_macos-build;0.1-SNAPSHOT [docs]
+[debug] == resolving dependencies for default#image_classification_-build;0.1-SNAPSHOT [docs]
 [debug] resolving dependencies for configuration 'pom'
-[debug] == resolving dependencies for default#image_classification_linux_macos-build;0.1-SNAPSHOT [pom]
+[debug] == resolving dependencies for default#image_classification_-build;0.1-SNAPSHOT [pom]
 [debug] resolving dependencies for configuration 'scala-tool'
-[debug] == resolving dependencies for default#image_classification_linux_macos-build;0.1-SNAPSHOT [scala-tool]
-[debug] == resolving dependencies default#image_classification_linux_macos-build;0.1-SNAPSHOT->org.scala-lang#scala-compiler;2.10.4 [scala-tool->default]
-[debug] == resolving dependencies default#image_classification_linux_macos-build;0.1-SNAPSHOT->org.scala-lang#scala-compiler;2.10.4 [scala-tool->runtime]
-[debug] == resolving dependencies default#image_classification_linux_macos-build;0.1-SNAPSHOT->org.scala-lang#scala-compiler;2.10.4 [scala-tool->compile]
+[debug] == resolving dependencies for default#image_classification_-build;0.1-SNAPSHOT [scala-tool]
+[debug] == resolving dependencies default#image_classification_-build;0.1-SNAPSHOT->org.scala-lang#scala-compiler;2.10.4 [scala-tool->default]
+[debug] == resolving dependencies default#image_classification_-build;0.1-SNAPSHOT->org.scala-lang#scala-compiler;2.10.4 [scala-tool->runtime]
+[debug] == resolving dependencies default#image_classification_-build;0.1-SNAPSHOT->org.scala-lang#scala-compiler;2.10.4 [scala-tool->compile]
 [debug] == resolving dependencies org.scala-lang#scala-compiler;2.10.4->org.scala-lang#scala-library;2.10.4 [compile->master(*)]
 [debug] == resolving dependencies org.scala-lang#scala-compiler;2.10.4->org.scala-lang#scala-library;2.10.4 [compile->compile(*)]
 [debug] == resolving dependencies org.scala-lang#scala-compiler;2.10.4->org.scala-lang#scala-library;2.10.4 [compile->default]
@@ -1689,8 +1689,8 @@
 [debug] == resolving dependencies org.scala-lang#scala-compiler;2.10.4->org.scala-lang#scala-reflect;2.10.4 [runtime->compile]
 [debug] == resolving dependencies org.scala-lang#scala-reflect;2.10.4->org.scala-lang#scala-library;2.10.4 [runtime->runtime(*)]
 [debug] == resolving dependencies org.scala-lang#scala-reflect;2.10.4->org.scala-lang#scala-library;2.10.4 [runtime->compile]
-[debug] == resolving dependencies default#image_classification_linux_macos-build;0.1-SNAPSHOT->org.scala-lang#scala-compiler;2.10.4 [scala-tool->master]
-[debug] == resolving dependencies default#image_classification_linux_macos-build;0.1-SNAPSHOT->org.scala-lang#scala-compiler;2.10.4 [scala-tool->optional(default)]
+[debug] == resolving dependencies default#image_classification_-build;0.1-SNAPSHOT->org.scala-lang#scala-compiler;2.10.4 [scala-tool->master]
+[debug] == resolving dependencies default#image_classification_-build;0.1-SNAPSHOT->org.scala-lang#scala-compiler;2.10.4 [scala-tool->optional(default)]
 [debug] == resolving dependencies org.scala-lang#scala-compiler;2.10.4->org.scala-lang#jline;2.10.4 [optional->master(*)]
 [info] Resolving org.scala-lang#jline;2.10.4 ...
 [debug] sbt-chain: Checking cache for: dependency: org.scala-lang#jline;2.10.4 {optional=[compile(*), master(*)]}
@@ -1703,11 +1703,11 @@
 [debug] sbt-chain: module revision found in cache: org.fusesource.jansi#jansi;1.4
 [debug] 	found org.fusesource.jansi#jansi;1.4 in sbt-chain
 [debug] == resolving dependencies org.scala-lang#jline;2.10.4->org.fusesource.jansi#jansi;1.4 [compile->compile(*)]
-[debug] == resolving dependencies default#image_classification_linux_macos-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [scala-tool->default]
-[debug] == resolving dependencies default#image_classification_linux_macos-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [scala-tool->runtime]
-[debug] == resolving dependencies default#image_classification_linux_macos-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [scala-tool->compile]
-[debug] == resolving dependencies default#image_classification_linux_macos-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [scala-tool->master]
-[debug] == resolving dependencies default#image_classification_linux_macos-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [scala-tool->optional(default)]
+[debug] == resolving dependencies default#image_classification_-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [scala-tool->default]
+[debug] == resolving dependencies default#image_classification_-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [scala-tool->runtime]
+[debug] == resolving dependencies default#image_classification_-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [scala-tool->compile]
+[debug] == resolving dependencies default#image_classification_-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [scala-tool->master]
+[debug] == resolving dependencies default#image_classification_-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [scala-tool->optional(default)]
 [debug] 	resolved ivy file produced in cache
 [debug] :: downloading artifacts ::
 [debug] 	[NOT REQUIRED] org.scala-lang#scala-library;2.10.4!scala-library.jar
@@ -1766,19 +1766,19 @@
 [debug] 	[NOT REQUIRED] org.scala-sbt#apply-macro;0.13.8!apply-macro.jar
 [debug] 	[NOT REQUIRED] org.scala-lang#jline;2.10.4!jline.jar
 [debug] 	[NOT REQUIRED] org.fusesource.jansi#jansi;1.4!jansi.jar
-[debug] :: resolution report :: resolve 1018ms :: artifacts dl 50ms
-[debug] 	report for default#image_classification_linux_macos-build;0.1-SNAPSHOT compile produced in /home/machine1/Downloads/saria/CS5542-Tutorial4-SourceCode/image_classification_Linux_MacOS/project/target/resolution-cache/reports/default-image_classification_linux_macos-build-compile.xml
-[debug] 	report for default#image_classification_linux_macos-build;0.1-SNAPSHOT runtime produced in /home/machine1/Downloads/saria/CS5542-Tutorial4-SourceCode/image_classification_Linux_MacOS/project/target/resolution-cache/reports/default-image_classification_linux_macos-build-runtime.xml
-[debug] 	report for default#image_classification_linux_macos-build;0.1-SNAPSHOT test produced in /home/machine1/Downloads/saria/CS5542-Tutorial4-SourceCode/image_classification_Linux_MacOS/project/target/resolution-cache/reports/default-image_classification_linux_macos-build-test.xml
-[debug] 	report for default#image_classification_linux_macos-build;0.1-SNAPSHOT provided produced in /home/machine1/Downloads/saria/CS5542-Tutorial4-SourceCode/image_classification_Linux_MacOS/project/target/resolution-cache/reports/default-image_classification_linux_macos-build-provided.xml
-[debug] 	report for default#image_classification_linux_macos-build;0.1-SNAPSHOT optional produced in /home/machine1/Downloads/saria/CS5542-Tutorial4-SourceCode/image_classification_Linux_MacOS/project/target/resolution-cache/reports/default-image_classification_linux_macos-build-optional.xml
-[debug] 	report for default#image_classification_linux_macos-build;0.1-SNAPSHOT compile-internal produced in /home/machine1/Downloads/saria/CS5542-Tutorial4-SourceCode/image_classification_Linux_MacOS/project/target/resolution-cache/reports/default-image_classification_linux_macos-build-compile-internal.xml
-[debug] 	report for default#image_classification_linux_macos-build;0.1-SNAPSHOT runtime-internal produced in /home/machine1/Downloads/saria/CS5542-Tutorial4-SourceCode/image_classification_Linux_MacOS/project/target/resolution-cache/reports/default-image_classification_linux_macos-build-runtime-internal.xml
-[debug] 	report for default#image_classification_linux_macos-build;0.1-SNAPSHOT test-internal produced in /home/machine1/Downloads/saria/CS5542-Tutorial4-SourceCode/image_classification_Linux_MacOS/project/target/resolution-cache/reports/default-image_classification_linux_macos-build-test-internal.xml
-[debug] 	report for default#image_classification_linux_macos-build;0.1-SNAPSHOT plugin produced in /home/machine1/Downloads/saria/CS5542-Tutorial4-SourceCode/image_classification_Linux_MacOS/project/target/resolution-cache/reports/default-image_classification_linux_macos-build-plugin.xml
-[debug] 	report for default#image_classification_linux_macos-build;0.1-SNAPSHOT sources produced in /home/machine1/Downloads/saria/CS5542-Tutorial4-SourceCode/image_classification_Linux_MacOS/project/target/resolution-cache/reports/default-image_classification_linux_macos-build-sources.xml
-[debug] 	report for default#image_classification_linux_macos-build;0.1-SNAPSHOT docs produced in /home/machine1/Downloads/saria/CS5542-Tutorial4-SourceCode/image_classification_Linux_MacOS/project/target/resolution-cache/reports/default-image_classification_linux_macos-build-docs.xml
-[debug] 	report for default#image_classification_linux_macos-build;0.1-SNAPSHOT pom produced in /home/machine1/Downloads/saria/CS5542-Tutorial4-SourceCode/image_classification_Linux_MacOS/project/target/resolution-cache/reports/default-image_classification_linux_macos-build-pom.xml
-[debug] 	report for default#image_classification_linux_macos-build;0.1-SNAPSHOT scala-tool produced in /home/machine1/Downloads/saria/CS5542-Tutorial4-SourceCode/image_classification_Linux_MacOS/project/target/resolution-cache/reports/default-image_classification_linux_macos-build-scala-tool.xml
-[debug] 	resolve done (1018ms resolve - 50ms download)
+[debug] :: resolution report :: resolve 1204ms :: artifacts dl 21ms
+[debug] 	report for default#image_classification_-build;0.1-SNAPSHOT compile produced in /home/machine1/Downloads/SariaFolder/BigDataAnalytics/lab4/image_classification_/project/target/resolution-cache/reports/default-image_classification_-build-compile.xml
+[debug] 	report for default#image_classification_-build;0.1-SNAPSHOT runtime produced in /home/machine1/Downloads/SariaFolder/BigDataAnalytics/lab4/image_classification_/project/target/resolution-cache/reports/default-image_classification_-build-runtime.xml
+[debug] 	report for default#image_classification_-build;0.1-SNAPSHOT test produced in /home/machine1/Downloads/SariaFolder/BigDataAnalytics/lab4/image_classification_/project/target/resolution-cache/reports/default-image_classification_-build-test.xml
+[debug] 	report for default#image_classification_-build;0.1-SNAPSHOT provided produced in /home/machine1/Downloads/SariaFolder/BigDataAnalytics/lab4/image_classification_/project/target/resolution-cache/reports/default-image_classification_-build-provided.xml
+[debug] 	report for default#image_classification_-build;0.1-SNAPSHOT optional produced in /home/machine1/Downloads/SariaFolder/BigDataAnalytics/lab4/image_classification_/project/target/resolution-cache/reports/default-image_classification_-build-optional.xml
+[debug] 	report for default#image_classification_-build;0.1-SNAPSHOT compile-internal produced in /home/machine1/Downloads/SariaFolder/BigDataAnalytics/lab4/image_classification_/project/target/resolution-cache/reports/default-image_classification_-build-compile-internal.xml
+[debug] 	report for default#image_classification_-build;0.1-SNAPSHOT runtime-internal produced in /home/machine1/Downloads/SariaFolder/BigDataAnalytics/lab4/image_classification_/project/target/resolution-cache/reports/default-image_classification_-build-runtime-internal.xml
+[debug] 	report for default#image_classification_-build;0.1-SNAPSHOT test-internal produced in /home/machine1/Downloads/SariaFolder/BigDataAnalytics/lab4/image_classification_/project/target/resolution-cache/reports/default-image_classification_-build-test-internal.xml
+[debug] 	report for default#image_classification_-build;0.1-SNAPSHOT plugin produced in /home/machine1/Downloads/SariaFolder/BigDataAnalytics/lab4/image_classification_/project/target/resolution-cache/reports/default-image_classification_-build-plugin.xml
+[debug] 	report for default#image_classification_-build;0.1-SNAPSHOT sources produced in /home/machine1/Downloads/SariaFolder/BigDataAnalytics/lab4/image_classification_/project/target/resolution-cache/reports/default-image_classification_-build-sources.xml
+[debug] 	report for default#image_classification_-build;0.1-SNAPSHOT docs produced in /home/machine1/Downloads/SariaFolder/BigDataAnalytics/lab4/image_classification_/project/target/resolution-cache/reports/default-image_classification_-build-docs.xml
+[debug] 	report for default#image_classification_-build;0.1-SNAPSHOT pom produced in /home/machine1/Downloads/SariaFolder/BigDataAnalytics/lab4/image_classification_/project/target/resolution-cache/reports/default-image_classification_-build-pom.xml
+[debug] 	report for default#image_classification_-build;0.1-SNAPSHOT scala-tool produced in /home/machine1/Downloads/SariaFolder/BigDataAnalytics/lab4/image_classification_/project/target/resolution-cache/reports/default-image_classification_-build-scala-tool.xml
+[debug] 	resolve done (1204ms resolve - 21ms download)
 [info] Done updating.

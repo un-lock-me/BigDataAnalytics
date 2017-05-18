@@ -1,0 +1,35 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="Client:war exploded">
+    <output-path>$PROJECT_DIR$/target/Client</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="Client" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="Maven: org.json:json:20160810" />
+          <element id="library" level="project" name="Maven: javax:javaee-api:7.0" />
+          <element id="library" level="project" name="Maven: com.sun.mail:javax.mail:1.5.0" />
+          <element id="library" level="project" name="Maven: javax.activation:activation:1.1" />
+          <element id="library" level="project" name="Maven: org.apache.kafka:kafka-clients:0.10.0.1" />
+          <element id="library" level="project" name="Maven: net.jpountz.lz4:lz4:1.3.0" />
+          <element id="library" level="project" name="Maven: org.xerial.snappy:snappy-java:1.1.2.6" />
+          <element id="library" level="project" name="Maven: org.slf4j:slf4j-api:1.7.21" />
+          <element id="library" level="project" name="Maven: log4j:log4j:1.2.17" />
+          <element id="library" level="project" name="Maven: org.apache.kafka:kafka_2.10:0.8.1.1" />
+          <element id="library" level="project" name="Maven: com.yammer.metrics:metrics-core:2.2.0" />
+          <element id="library" level="project" name="Maven: org.apache.zookeeper:zookeeper:3.3.4" />
+          <element id="library" level="project" name="Maven: jline:jline:0.9.94" />
+          <element id="library" level="project" name="Maven: net.sf.jopt-simple:jopt-simple:3.2" />
+          <element id="library" level="project" name="Maven: org.scala-lang:scala-library:2.10.1" />
+          <element id="library" level="project" name="Maven: com.101tec:zkclient:0.3" />
+          <element id="library" level="project" name="Maven: com.google.guava:guava:19.0" />
+        </element>
+      </element>
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/target/Client/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="javaee-facet-resources" facet="Client/web/Web" />
+    </root>
+  </artifact>
+</component>

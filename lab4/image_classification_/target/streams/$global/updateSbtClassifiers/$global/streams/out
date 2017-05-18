@@ -703,9 +703,9 @@
 [debug] 	[NOT REQUIRED] org.scala-sbt#test-agent;0.13.8!test-agent.jar
 [debug] 	[NOT REQUIRED] org.scala-sbt#test-interface;1.0!test-interface.jar
 [debug] 	[NOT REQUIRED] org.scala-sbt#apply-macro;0.13.8!apply-macro.jar
-[debug] :: resolution report :: resolve 750ms :: artifacts dl 25ms
-[debug] 	report for image_classification#image_classification$sbt_2.11;1.0 default produced in /home/machine1/Downloads/saria/CS5542-Tutorial4-SourceCode/image_classification_Linux_MacOS/target/resolution-cache/reports/image_classification-image_classification$sbt_2.11-default.xml
-[debug] 	resolve done (750ms resolve - 25ms download)
+[debug] :: resolution report :: resolve 205ms :: artifacts dl 7ms
+[debug] 	report for image_classification#image_classification$sbt_2.11;1.0 default produced in /home/machine1/Downloads/SariaFolder/BigDataAnalytics/lab4/image_classification_/target/resolution-cache/reports/image_classification-image_classification$sbt_2.11-default.xml
+[debug] 	resolve done (205ms resolve - 7ms download)
 [debug] Using inline dependencies specified in Scala.
 [debug] :: resolving dependencies :: image_classification#image_classification$sources_2.11;1.0
 [debug] 	confs: [default]
@@ -1069,6 +1069,6 @@
 [debug] 	[NOT REQUIRED] org.scala-sbt#precompiled-2_8_2;0.13.8!precompiled-2_8_2.jar(src)
 [debug] 	[NOT REQUIRED] org.scala-sbt#precompiled-2_9_2;0.13.8!precompiled-2_9_2.jar(src)
 [debug] 	[NOT REQUIRED] org.scala-sbt#precompiled-2_9_3;0.13.8!precompiled-2_9_3.jar(src)
-[debug] :: resolution report :: resolve 113ms :: artifacts dl 23ms
-[debug] 	report for image_classification#image_classification$sources_2.11;1.0 default produced in /home/machine1/Downloads/saria/CS5542-Tutorial4-SourceCode/image_classification_Linux_MacOS/target/resolution-cache/reports/image_classification-image_classification$sources_2.11-default.xml
-[debug] 	resolve done (113ms resolve - 23ms download)
+[debug] :: resolution report :: resolve 33ms :: artifacts dl 8ms
+[debug] 	report for image_classification#image_classification$sources_2.11;1.0 default produced in /home/machine1/Downloads/SariaFolder/BigDataAnalytics/lab4/image_classification_/target/resolution-cache/reports/image_classification-image_classification$sources_2.11-default.xml
+[debug] 	resolve done (33ms resolve - 8ms download)
