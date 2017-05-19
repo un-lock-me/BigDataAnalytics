@@ -10,6 +10,7 @@
 [debug] == resolving dependencies default#image_classification$sbt_2.11;1.0->org.scala-sbt#sbt;0.13.8 [default->default(compile)]
 [info] Resolving org.scala-sbt#sbt;0.13.8 ...
 [debug] sbt-chain: Checking cache for: dependency: org.scala-sbt#sbt;0.13.8 {default=[default(compile)]}
+[debug] no default cache defined: set to C:\Users\Manikanta\.ivy2\cache
 [debug] sbt-chain: module revision found in cache: org.scala-sbt#sbt;0.13.8
 [debug] 	found org.scala-sbt#sbt;0.13.8 in sbt-chain
 [debug] == resolving dependencies org.scala-sbt#sbt;0.13.8->org.scala-lang#scala-library;2.10.4 [compile->default(compile)]
@@ -703,9 +704,9 @@
 [debug] 	[NOT REQUIRED] org.scala-sbt#test-agent;0.13.8!test-agent.jar
 [debug] 	[NOT REQUIRED] org.scala-sbt#test-interface;1.0!test-interface.jar
 [debug] 	[NOT REQUIRED] org.scala-sbt#apply-macro;0.13.8!apply-macro.jar
-[debug] :: resolution report :: resolve 765ms :: artifacts dl 25ms
-[debug] 	report for default#image_classification$sbt_2.11;1.0 default produced in /home/machine1/Downloads/saria/BigData (2)/image_classification/target/resolution-cache/reports/default-image_classification$sbt_2.11-default.xml
-[debug] 	resolve done (765ms resolve - 25ms download)
+[debug] :: resolution report :: resolve 1604ms :: artifacts dl 49ms
+[debug] 	report for default#image_classification$sbt_2.11;1.0 default produced in C:\Users\Manikanta\Documents\UMKC Subjects\GA\Tutorial4\image_classification\target\resolution-cache\reports\default-image_classification$sbt_2.11-default.xml
+[debug] 	resolve done (1604ms resolve - 49ms download)
 [debug] Using inline dependencies specified in Scala.
 [debug] :: resolving dependencies :: default#image_classification$sources_2.11;1.0
 [debug] 	confs: [default]
@@ -1069,6 +1070,6 @@
 [debug] 	[NOT REQUIRED] org.scala-sbt#precompiled-2_8_2;0.13.8!precompiled-2_8_2.jar(src)
 [debug] 	[NOT REQUIRED] org.scala-sbt#precompiled-2_9_2;0.13.8!precompiled-2_9_2.jar(src)
 [debug] 	[NOT REQUIRED] org.scala-sbt#precompiled-2_9_3;0.13.8!precompiled-2_9_3.jar(src)
-[debug] :: resolution report :: resolve 123ms :: artifacts dl 21ms
-[debug] 	report for default#image_classification$sources_2.11;1.0 default produced in /home/machine1/Downloads/saria/BigData (2)/image_classification/target/resolution-cache/reports/default-image_classification$sources_2.11-default.xml
-[debug] 	resolve done (123ms resolve - 21ms download)
+[debug] :: resolution report :: resolve 514ms :: artifacts dl 81ms
+[debug] 	report for default#image_classification$sources_2.11;1.0 default produced in C:\Users\Manikanta\Documents\UMKC Subjects\GA\Tutorial4\image_classification\target\resolution-cache\reports\default-image_classification$sources_2.11-default.xml
+[debug] 	resolve done (514ms resolve - 81ms download)
